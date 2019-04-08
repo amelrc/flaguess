@@ -1,0 +1,56 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    
+
+}
+.title{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 5px;
+    text-transform: capitalize;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    margin: 0px auto 0px auto;
+    padding-bottom: 10px;
+  
+}
+.myForm__input {
+    height: 30px;
+    border-radius: 9px;
+    border: none;
+    background: rgb(188, 214, 188);
+    outline: none;
+    padding: 6px;
+    font-size: 15px;
+    color: darkgreen;
+    font-weight: 900;
+    margin: 4px;
+}
+
+.myForm__btn{
+    height: 30px;
+    border-radius: 9px;
+    border: none;
+    outline: none;
+    background-color: rgb(48, 43, 43);
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 4px;
+    font-weight: 900;
+}
+.myForm__btn:hover{
+    background-color: rgb(206, 161, 47);
+    color: black;
+}
+
+.message {
+    display: none;
+}
